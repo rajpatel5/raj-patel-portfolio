@@ -73,7 +73,7 @@ document.addEventListener('click', function (event) {
         let project_grid = document.getElementById("project-grid");
         let is_more;
 
-        getAllProjects("projects/project_data.json")
+        getAllProjects("raj-patel-portfolio/projects/project_data.json")
         .then(data => {
             const allOtherProjects = data.projects;
             const length = allOtherProjects.length;
