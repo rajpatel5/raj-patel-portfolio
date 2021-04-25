@@ -331,3 +331,150 @@ footer {
         transform: scale(0);
     }
 }
+
+/* Small Devices */
+
+@media screen and (max-width: 1200px) {
+    .experience-card {
+        width: 90%;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #project-grid {
+        grid-gap: 12px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #project-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 24px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header-name {
+        width: 27%;
+        font-size: 30px;
+    }
+
+    #navbar {
+        display: flex;
+    }
+    
+    .nav {
+        float: right;
+        display: flex;
+        margin: 0 2.4% 0 auto; 
+        width: 100%;
+    }
+    
+    .nav ul li a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-size: 18px;
+        padding: 14px 12px 14px 12px;
+    }
+
+    #home {
+        flex-direction: column;
+    }
+
+    .profile {
+        max-width: 25%;
+        /* margin-right: 4%; */
+        align-self: center;
+    }
+    
+    .profile img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .experience-card {
+        width: 90%;
+        padding: 12px;
+    }
+
+    #project-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 24px;
+        padding: 12px;
+    }
+
+    .project-card h2 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+    
+    .project-card h3 {
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        float: right;
+        display: flex;
+        margin: 0 2.4% 0 auto; 
+        width: 60%;
+    }
+    .nav ul {
+        flex-direction: row;
+        margin: auto 0 auto 0;
+    }
+    
+    .nav ul li {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-card {
+        background-color: var(--primary-color);
+        height: 160px;
+        padding: 0px;
+        font-weight: 400;
+        border: 2px solid var(--faint-primary-color);
+        border-radius: 8px;
+        color: var(--white);
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    #project-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 12px;
+        padding: 12px;
+    }
+
+    .project-card h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1px;
+    }
+    
+    .project-card h3 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .project-description {
+        font-size: 10px;
+        max-width: max-content;
+        margin: 10% 24px 0 24px;
+    }
+}
