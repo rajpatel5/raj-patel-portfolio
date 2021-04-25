@@ -1,0 +1,34 @@
+{
+    "projects" : [
+        {
+            "name" : "Mini Music Synthesizer",
+            "technologies" : "C",
+            "description" : "Develops pleasant music implemented by the Karplus-Strong plucked string algorithm simulating the sounds of a musical instrument",
+            "link" : "https://github.com/rajpatel5/Mini-Music-Synthesizer"
+        },
+        {
+            "name" : "Image-Compressor",
+            "technologies" : "C | Linux",
+            "description" : "Simple, elegant, and powerful image compressor which works with black and white images of type pgm",
+            "link" : "https://github.com/rajpatel5/Image-Compressor"
+        },
+        {
+            "name" : "Mock Unix Shell",
+            "technologies" : "Java",
+            "description" : "Offers a variety of different commands such as mkdir, cp, get, and many more. Incorporates a file system to store all the information",
+            "link" : "https://github.com/rajpatel5/Mock-Unix-Shell"
+        },
+        {
+            "name" : "Snakes and Ladders",
+            "technologies" : "Verilog | DE2 Board",
+            "description" : "Highly interactive and fun snakes and ladder's game. Winner is displayed on the board along with a pattern of flashing led lights",
+            "link" : "https://github.com/rajpatel5/SnakesAndLadder"
+        },
+        {
+            "name" : "3D Solar System",
+            "technologies" : "Python | PIL",
+            "description" : "Educational software providing information on each of the objects in our solar system such as mass, size, and distance from the Sun, and more",
+            "link" : "https://github.com/rajpatel5/Solar-System"
+        }
+    ]
+}
