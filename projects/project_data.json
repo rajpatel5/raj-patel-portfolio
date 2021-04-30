@@ -29,6 +29,30 @@
             "technologies" : "Python | PIL",
             "description" : "Educational software providing information on each of the objects in our solar system such as mass, size, and distance from the Sun, and more",
             "link" : "https://github.com/rajpatel5/Solar-System"
+        },
+        {
+            "name" : "Mouse vs Cats",
+            "technologies" : "C",
+            "description" : "Mouse must get all the pieces of cheese without being caught by the cats within a maze. The smarter the cat, the harder to get the cheese",
+            "link" : "https://github.com/rajpatel5/Mouse-vs-Cats"
+        },
+        {
+            "name" : "Dragger.js",
+            "technologies" : "JavaScript | jQuery",
+            "description" : "A drag and drop library that alleviates the stress of having to do DOM manipulation with smooth animations",
+            "link" : "https://github.com/rajpatel5/dragger.js"
+        },
+        {
+            "name" : "FanCrowd",
+            "technologies" : "Angular | HTML | CSS",
+            "description" : "Designed for people who have strong interests in various topics related to entertainment such as movies, shows, sports, games, etc.",
+            "link" : "https://github.com/rajpatel5/FanCrowd"
+        },
+        {
+            "name" : "Scikit Contributions",
+            "technologies" : "Python",
+            "description" : "Multiple contributions to scikit-learn with small, easy fixes to larger, more complex fixes with detailed documentation",
+            "link" : "https://github.com/rajpatel5/scikit-contributions"
         }
     ]
 }
