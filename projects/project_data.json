@@ -32,7 +32,7 @@
         },
         {
             "name" : "Mouse vs Cats",
-            "technologies" : "C",
+            "technologies" : "C | Linux",
             "description" : "Mouse must get all the pieces of cheese without being caught by the cats within a maze. The smarter the cat, the harder to get the cheese",
             "link" : "https://github.com/rajpatel5/Mouse-vs-Cats"
         },
@@ -44,7 +44,7 @@
         },
         {
             "name" : "FanCrowd",
-            "technologies" : "Angular | HTML | CSS",
+            "technologies" : "Angular | MongoDB",
             "description" : "Designed for people who have strong interests in various topics related to entertainment such as movies, shows, sports, games, etc.",
             "link" : "https://github.com/rajpatel5/FanCrowd"
         },
