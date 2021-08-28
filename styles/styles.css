@@ -147,6 +147,11 @@ hr {
     margin: 8px auto 0 auto;
 }
 
+#about-me-content {
+    margin-left: 6.5%;
+    width: 87%;
+}
+
 /* Footer style */
 footer {
     background-color: var(--offwhite);
